@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин картин</title>
+    <style>
+        /* Додайте ваші стилі CSS тут */
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Магазин картин</h1>
+    </header>
+
+    <section class="art-gallery">
+        <article class="art-piece">
+            <img src="painting1.jpg" alt="Картинка 1">
+            <h2>Назва картини 1</h2>
+            <p>Ціна: $100</p>
+            <button onclick="addToCart(1)">Додати до кошика</button>
+        </article>
+
+        <article class="art-piece">
+            <img src="painting2.jpg" alt="Картинка 2">
+            <h2>Назва картини 2</h2>
+            <p>Ціна: $150</p>
+            <button onclick="addToCart(2)">Додати до кошика</button>
+        </article>
+
+        <!-- Додайте інші картини за аналогією -->
+
+    </section>
+
+    <section class="shopping-cart">
+        <h2>Кошик</h2>
+        <ul id="cart-items">
+            <!-- Замовлені елементи будуть відображатися тут -->
+        </ul>
+        <p>Загальна сума: <span id="total-price">$0.00</span></p>
+        <button onclick="checkout()">Оформити замовлення</button>
+    </section>
+
+    <script>
+        // Додайте ваші скрипти JavaScript тут
+
+        // Приклад функцій, які можна додати:
+        function addToCart(itemId) {
+            // Логіка для додавання товару до кошика
+        }
+
+        function checkout() {
+            // Логіка для оформлення замовлення
+        }
+    </script>
+
+</body>
+</html>
