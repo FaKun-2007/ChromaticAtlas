@@ -1,7 +1,8 @@
 <?php
 
-/* https://api.telegram.org/botXXXXXXXXXXXXXXXXXXXXXXX/getUpdates,
-где, XXXXXXXXXXXXXXXXXXXXXXX - токен вашего бота, полученный ранее  	
+/* https://api.telegram.org/bot6359695934:AAFl4_WPZiuY4JHk4NRgSTgrVCzZK66Je48/getUpdates,
+где, XXXXXXXXXXXXXXXXXXXXXXX - токен вашего бота, полученный ранее  
+6359695934:AAFl4_WPZiuY4JHk4NRgSTgrVCzZK66Je48
 <div class="form-group">
       				<label for="">Імя</label>
       				<input type="text" class="form-control" id="" name="user_name" placeholder="Наприклад, Іван">
@@ -25,12 +26,13 @@ $name = $_POST['user_name'];
 $phone = $_POST['user_phone'];
 $email = $_POST['user_email'];
 $picture = $_POST['user_picture'];
-$token = "";
-$chat_id = "";
+$token = "6359695934:AAFl4_WPZiuY4JHk4NRgSTgrVCzZK66Je48";
+$chat_id = "-4081966921";
 $arr = array(
   'Имя пользователя: ' => $name,
   'Телефон: ' => $phone,
   'Email' => $email
+  'Товар' => $picture
 );
 
 foreach($arr as $key => $value) {
